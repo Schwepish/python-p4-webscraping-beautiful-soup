@@ -73,7 +73,7 @@ let's talk about _how_ to scrape.
 [requests][] is a module in Python that allows us to programmatically make HTTP
 requests. It gives us a bunch of useful methods to make different types of
 requests, but for this guide, we're only interested in one right now: `get`.
-This method takes one argument, a URL, and will return to us the HTML content of
+This methodtakes one argument, a URL, and will return to us the HTML content of
 that URL.
 
 [requests]: https://requests.readthedocs.io/en/latest/
@@ -217,7 +217,7 @@ how you scrape a page is **very specific to the content of the page you are
 trying to scrape**. That means that if the webpage you wrote certain scraping
 code for ever changes, your scraping code will likely no longer work correctly.
 So, the Flatiron School website that this reading refers to **may have
-changed**! Some of the examples here may be specific to an earlier version of the
+changed**! Some of the examples here may specific to an earlier version of the
 site and won't work look or work exactly as shown when you try them out on your
 own. That's okay though. Just follow along with the reading and, if you want to
 try it out, feel free to use the examples provided to guide you in scraping
@@ -368,11 +368,11 @@ to grab the element that contains our desired data. Finally, we used the
 ### Iterating over elements
 
 Sometimes we want to get a collection of the same elements, so we can iterate
-over them. For instance, a little further down the [page][page] are some of the
+over them. For instance, a little further down the [page][page]] are some of the
 courses offered by Flatiron School. We can practice iterating by trying to
 scrape the titles of all courses from these elements.
 
-[page]: https://flatironschool.com
+[page]: flatironschool.com
 
 ![courses](https://curriculum-content.s3.amazonaws.com/flatiron_courses.png)
 
